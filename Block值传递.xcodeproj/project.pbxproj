@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A993118C19163378006CF1CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A993118B19163378006CF1CE /* Foundation.framework */; };
+		A993118E19163378006CF1CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A993118D19163378006CF1CE /* CoreGraphics.framework */; };
+		A993119019163378006CF1CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A993118F19163378006CF1CE /* UIKit.framework */; };
+		A993119619163378006CF1CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A993119419163378006CF1CE /* InfoPlist.strings */; };
+		A993119819163378006CF1CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A993119719163378006CF1CE /* main.m */; };
+		A993119C19163378006CF1CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A993119B19163378006CF1CE /* AppDelegate.m */; };
+		A993119E19163378006CF1CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A993119D19163378006CF1CE /* Images.xcassets */; };
+		A99311A519163378006CF1CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99311A419163378006CF1CE /* XCTest.framework */; };
+		A99311A619163378006CF1CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A993118B19163378006CF1CE /* Foundation.framework */; };
+		A99311A719163378006CF1CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A993118F19163378006CF1CE /* UIKit.framework */; };
+		A99311AF19163378006CF1CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A99311AD19163378006CF1CE /* InfoPlist.strings */; };
+		A99311B119163378006CF1CE /* Block___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A99311B019163378006CF1CE /* Block___Tests.m */; };
+		A99311BC191633B1006CF1CE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A99311BB191633B1006CF1CE /* MainViewController.m */; };
+		A99311BF191633B7006CF1CE /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A99311BE191633B7006CF1CE /* OtherViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A99311A819163378006CF1CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A993118019163378006CF1CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A993118719163378006CF1CE;
+			remoteInfo = "Block值传递";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A993118819163378006CF1CE /* Block值传递.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block值传递.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A993118B19163378006CF1CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A993118D19163378006CF1CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A993118F19163378006CF1CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A993119319163378006CF1CE /* Block值传递-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Block值传递-Info.plist"; sourceTree = "<group>"; };
+		A993119519163378006CF1CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A993119719163378006CF1CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A993119919163378006CF1CE /* Block值传递-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Block值传递-Prefix.pch"; sourceTree = "<group>"; };
+		A993119A19163378006CF1CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A993119B19163378006CF1CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A993119D19163378006CF1CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A99311A319163378006CF1CE /* Block值传递Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Block值传递Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99311A419163378006CF1CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A99311AC19163378006CF1CE /* Block值传递Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Block值传递Tests-Info.plist"; sourceTree = "<group>"; };
+		A99311AE19163378006CF1CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A99311B019163378006CF1CE /* Block___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Block___Tests.m"; sourceTree = "<group>"; };
+		A99311BA191633B1006CF1CE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		A99311BB191633B1006CF1CE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		A99311BD191633B7006CF1CE /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OtherViewController.h; path = ../OtherViewController.h; sourceTree = "<group>"; };
+		A99311BE191633B7006CF1CE /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OtherViewController.m; path = ../OtherViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A993118519163378006CF1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A993118E19163378006CF1CE /* CoreGraphics.framework in Frameworks */,
+				A993119019163378006CF1CE /* UIKit.framework in Frameworks */,
+				A993118C19163378006CF1CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99311A019163378006CF1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99311A519163378006CF1CE /* XCTest.framework in Frameworks */,
+				A99311A719163378006CF1CE /* UIKit.framework in Frameworks */,
+				A99311A619163378006CF1CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A993117F19163378006CF1CE = {
+			isa = PBXGroup;
+			children = (
+				A993119119163378006CF1CE /* Block值传递 */,
+				A99311AA19163378006CF1CE /* Block值传递Tests */,
+				A993118A19163378006CF1CE /* Frameworks */,
+				A993118919163378006CF1CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A993118919163378006CF1CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A993118819163378006CF1CE /* Block值传递.app */,
+				A99311A319163378006CF1CE /* Block值传递Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A993118A19163378006CF1CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A993118B19163378006CF1CE /* Foundation.framework */,
+				A993118D19163378006CF1CE /* CoreGraphics.framework */,
+				A993118F19163378006CF1CE /* UIKit.framework */,
+				A99311A419163378006CF1CE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A993119119163378006CF1CE /* Block值传递 */ = {
+			isa = PBXGroup;
+			children = (
+				A993119A19163378006CF1CE /* AppDelegate.h */,
+				A993119B19163378006CF1CE /* AppDelegate.m */,
+				A99311BA191633B1006CF1CE /* MainViewController.h */,
+				A99311BB191633B1006CF1CE /* MainViewController.m */,
+				A99311BD191633B7006CF1CE /* OtherViewController.h */,
+				A99311BE191633B7006CF1CE /* OtherViewController.m */,
+				A993119D19163378006CF1CE /* Images.xcassets */,
+				A993119219163378006CF1CE /* Supporting Files */,
+			);
+			path = "Block值传递";
+			sourceTree = "<group>";
+		};
+		A993119219163378006CF1CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A993119319163378006CF1CE /* Block值传递-Info.plist */,
+				A993119419163378006CF1CE /* InfoPlist.strings */,
+				A993119719163378006CF1CE /* main.m */,
+				A993119919163378006CF1CE /* Block值传递-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A99311AA19163378006CF1CE /* Block值传递Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A99311B019163378006CF1CE /* Block___Tests.m */,
+				A99311AB19163378006CF1CE /* Supporting Files */,
+			);
+			path = "Block值传递Tests";
+			sourceTree = "<group>";
+		};
+		A99311AB19163378006CF1CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A99311AC19163378006CF1CE /* Block值传递Tests-Info.plist */,
+				A99311AD19163378006CF1CE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A993118719163378006CF1CE /* Block值传递 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99311B419163378006CF1CE /* Build configuration list for PBXNativeTarget "Block值传递" */;
+			buildPhases = (
+				A993118419163378006CF1CE /* Sources */,
+				A993118519163378006CF1CE /* Frameworks */,
+				A993118619163378006CF1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Block值传递";
+			productName = "Block值传递";
+			productReference = A993118819163378006CF1CE /* Block值传递.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A99311A219163378006CF1CE /* Block值传递Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99311B719163378006CF1CE /* Build configuration list for PBXNativeTarget "Block值传递Tests" */;
+			buildPhases = (
+				A993119F19163378006CF1CE /* Sources */,
+				A99311A019163378006CF1CE /* Frameworks */,
+				A99311A119163378006CF1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A99311A919163378006CF1CE /* PBXTargetDependency */,
+			);
+			name = "Block值传递Tests";
+			productName = "Block值传递Tests";
+			productReference = A99311A319163378006CF1CE /* Block值传递Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A993118019163378006CF1CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "初心";
+				TargetAttributes = {
+					A99311A219163378006CF1CE = {
+						TestTargetID = A993118719163378006CF1CE;
+					};
+				};
+			};
+			buildConfigurationList = A993118319163378006CF1CE /* Build configuration list for PBXProject "Block值传递" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A993117F19163378006CF1CE;
+			productRefGroup = A993118919163378006CF1CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A993118719163378006CF1CE /* Block值传递 */,
+				A99311A219163378006CF1CE /* Block值传递Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A993118619163378006CF1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A993119619163378006CF1CE /* InfoPlist.strings in Resources */,
+				A993119E19163378006CF1CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99311A119163378006CF1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99311AF19163378006CF1CE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A993118419163378006CF1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A993119C19163378006CF1CE /* AppDelegate.m in Sources */,
+				A99311BF191633B7006CF1CE /* OtherViewController.m in Sources */,
+				A99311BC191633B1006CF1CE /* MainViewController.m in Sources */,
+				A993119819163378006CF1CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A993119F19163378006CF1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99311B119163378006CF1CE /* Block___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A99311A919163378006CF1CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A993118719163378006CF1CE /* Block值传递 */;
+			targetProxy = A99311A819163378006CF1CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A993119419163378006CF1CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A993119519163378006CF1CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A99311AD19163378006CF1CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A99311AE19163378006CF1CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A99311B219163378006CF1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A99311B319163378006CF1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A99311B519163378006CF1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Block值传递/Block值传递-Prefix.pch";
+				INFOPLIST_FILE = "Block值传递/Block值传递-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A99311B619163378006CF1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Block值传递/Block值传递-Prefix.pch";
+				INFOPLIST_FILE = "Block值传递/Block值传递-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A99311B819163378006CF1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Block值传递.app/Block值传递";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Block值传递/Block值传递-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Block值传递Tests/Block值传递Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A99311B919163378006CF1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Block值传递.app/Block值传递";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Block值传递/Block值传递-Prefix.pch";
+				INFOPLIST_FILE = "Block值传递Tests/Block值传递Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A993118319163378006CF1CE /* Build configuration list for PBXProject "Block值传递" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99311B219163378006CF1CE /* Debug */,
+				A99311B319163378006CF1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99311B419163378006CF1CE /* Build configuration list for PBXNativeTarget "Block值传递" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99311B519163378006CF1CE /* Debug */,
+				A99311B619163378006CF1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A99311B719163378006CF1CE /* Build configuration list for PBXNativeTarget "Block值传递Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99311B819163378006CF1CE /* Debug */,
+				A99311B919163378006CF1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A993118019163378006CF1CE /* Project object */;
+}
